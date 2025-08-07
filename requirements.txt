@@ -1,0 +1,12 @@
+streamlit
+pandas
+matplotlib
+seaborn
+wordcloud
+emoji
+nltk
+fpdf
+statsmodels
+textblob
+bcrypt
+google-generativeai
