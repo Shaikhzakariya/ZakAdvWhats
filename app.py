@@ -33,7 +33,7 @@ else:
         "Gemini  key not found in Streamlit. Some AI features may not work. Please add it  or set as an environment variable."
     )
     # For a quick local test (NOT for production or public code):
-    # genai.configure(api_key="YOUR_GEMINI_API_KEY")
+  
 
 
 # Initialize Gemini model
@@ -2969,3 +2969,4 @@ elif st.session_state.page == "business_features":  # BUSINESS FEATURES PAGE
         if st.checkbox("🧠 AI Auto-Responder Trainer (Conceptual)"):
             st.subheader("AI Auto-Responder Trainer (Conceptual)")
             ai_auto_responder_trainer(df)
+
